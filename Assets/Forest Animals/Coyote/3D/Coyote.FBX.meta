@@ -1,0 +1,1050 @@
+fileFormatVersion: 2
+guid: e60e4a3b60c730e4a9f21fc55c10bdff
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Coyote
+  - first:
+      1: 100004
+    second: Coyote Head
+  - first:
+      1: 100006
+    second: Coyote Jaw
+  - first:
+      1: 100008
+    second: Coyote L Calf
+  - first:
+      1: 100010
+    second: Coyote L Cheek
+  - first:
+      1: 100012
+    second: Coyote L Clavicle
+  - first:
+      1: 100014
+    second: Coyote L Ear
+  - first:
+      1: 100016
+    second: Coyote L Ear02
+  - first:
+      1: 100018
+    second: Coyote L Eye
+  - first:
+      1: 100020
+    second: Coyote L Eyebrow
+  - first:
+      1: 100022
+    second: Coyote L Finger0
+  - first:
+      1: 100024
+    second: Coyote L Finger1
+  - first:
+      1: 100026
+    second: Coyote L Finger2
+  - first:
+      1: 100028
+    second: Coyote L Finger3
+  - first:
+      1: 100030
+    second: Coyote L Foot
+  - first:
+      1: 100032
+    second: Coyote L Forearm
+  - first:
+      1: 100034
+    second: Coyote L Hand
+  - first:
+      1: 100036
+    second: Coyote L Lower Eyelid
+  - first:
+      1: 100038
+    second: Coyote L Lower Mouth
+  - first:
+      1: 100040
+    second: Coyote L Mouth
+  - first:
+      1: 100042
+    second: Coyote L Thigh
+  - first:
+      1: 100044
+    second: Coyote L Toe0
+  - first:
+      1: 100046
+    second: Coyote L Upper Eyelid
+  - first:
+      1: 100048
+    second: Coyote L Upper Mouth
+  - first:
+      1: 100050
+    second: Coyote L UpperArm
+  - first:
+      1: 100052
+    second: Coyote Mesh
+  - first:
+      1: 100054
+    second: Coyote Neck
+  - first:
+      1: 100056
+    second: Coyote Nose
+  - first:
+      1: 100058
+    second: Coyote Pelvis
+  - first:
+      1: 100060
+    second: Coyote R Calf
+  - first:
+      1: 100062
+    second: Coyote R Cheek
+  - first:
+      1: 100064
+    second: Coyote R Clavicle
+  - first:
+      1: 100066
+    second: Coyote R Ear
+  - first:
+      1: 100068
+    second: Coyote R Ear02
+  - first:
+      1: 100070
+    second: Coyote R Eye
+  - first:
+      1: 100072
+    second: Coyote R Eyebrow
+  - first:
+      1: 100074
+    second: Coyote R Finger0
+  - first:
+      1: 100076
+    second: Coyote R Finger1
+  - first:
+      1: 100078
+    second: Coyote R Finger2
+  - first:
+      1: 100080
+    second: Coyote R Finger3
+  - first:
+      1: 100082
+    second: Coyote R Foot
+  - first:
+      1: 100084
+    second: Coyote R Forearm
+  - first:
+      1: 100086
+    second: Coyote R Hand
+  - first:
+      1: 100088
+    second: Coyote R Lower Eyelid
+  - first:
+      1: 100090
+    second: Coyote R Lower Mouth
+  - first:
+      1: 100092
+    second: Coyote R Mouth
+  - first:
+      1: 100094
+    second: Coyote R Thigh
+  - first:
+      1: 100096
+    second: Coyote R Toe0
+  - first:
+      1: 100098
+    second: Coyote R Upper Eyelid
+  - first:
+      1: 100100
+    second: Coyote R Upper Mouth
+  - first:
+      1: 100102
+    second: Coyote R UpperArm
+  - first:
+      1: 100104
+    second: Coyote Spine
+  - first:
+      1: 100106
+    second: Coyote Spine1
+  - first:
+      1: 100108
+    second: Coyote Spine2
+  - first:
+      1: 100110
+    second: Coyote Tail
+  - first:
+      1: 100112
+    second: Coyote Tail02
+  - first:
+      1: 100114
+    second: Coyote Tail03
+  - first:
+      1: 100116
+    second: Coyote Tail04
+  - first:
+      1: 100118
+    second: Coyote Tongue
+  - first:
+      1: 100120
+    second: Coyote Tongue02
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Coyote
+  - first:
+      4: 400004
+    second: Coyote Head
+  - first:
+      4: 400006
+    second: Coyote Jaw
+  - first:
+      4: 400008
+    second: Coyote L Calf
+  - first:
+      4: 400010
+    second: Coyote L Cheek
+  - first:
+      4: 400012
+    second: Coyote L Clavicle
+  - first:
+      4: 400014
+    second: Coyote L Ear
+  - first:
+      4: 400016
+    second: Coyote L Ear02
+  - first:
+      4: 400018
+    second: Coyote L Eye
+  - first:
+      4: 400020
+    second: Coyote L Eyebrow
+  - first:
+      4: 400022
+    second: Coyote L Finger0
+  - first:
+      4: 400024
+    second: Coyote L Finger1
+  - first:
+      4: 400026
+    second: Coyote L Finger2
+  - first:
+      4: 400028
+    second: Coyote L Finger3
+  - first:
+      4: 400030
+    second: Coyote L Foot
+  - first:
+      4: 400032
+    second: Coyote L Forearm
+  - first:
+      4: 400034
+    second: Coyote L Hand
+  - first:
+      4: 400036
+    second: Coyote L Lower Eyelid
+  - first:
+      4: 400038
+    second: Coyote L Lower Mouth
+  - first:
+      4: 400040
+    second: Coyote L Mouth
+  - first:
+      4: 400042
+    second: Coyote L Thigh
+  - first:
+      4: 400044
+    second: Coyote L Toe0
+  - first:
+      4: 400046
+    second: Coyote L Upper Eyelid
+  - first:
+      4: 400048
+    second: Coyote L Upper Mouth
+  - first:
+      4: 400050
+    second: Coyote L UpperArm
+  - first:
+      4: 400052
+    second: Coyote Mesh
+  - first:
+      4: 400054
+    second: Coyote Neck
+  - first:
+      4: 400056
+    second: Coyote Nose
+  - first:
+      4: 400058
+    second: Coyote Pelvis
+  - first:
+      4: 400060
+    second: Coyote R Calf
+  - first:
+      4: 400062
+    second: Coyote R Cheek
+  - first:
+      4: 400064
+    second: Coyote R Clavicle
+  - first:
+      4: 400066
+    second: Coyote R Ear
+  - first:
+      4: 400068
+    second: Coyote R Ear02
+  - first:
+      4: 400070
+    second: Coyote R Eye
+  - first:
+      4: 400072
+    second: Coyote R Eyebrow
+  - first:
+      4: 400074
+    second: Coyote R Finger0
+  - first:
+      4: 400076
+    second: Coyote R Finger1
+  - first:
+      4: 400078
+    second: Coyote R Finger2
+  - first:
+      4: 400080
+    second: Coyote R Finger3
+  - first:
+      4: 400082
+    second: Coyote R Foot
+  - first:
+      4: 400084
+    second: Coyote R Forearm
+  - first:
+      4: 400086
+    second: Coyote R Hand
+  - first:
+      4: 400088
+    second: Coyote R Lower Eyelid
+  - first:
+      4: 400090
+    second: Coyote R Lower Mouth
+  - first:
+      4: 400092
+    second: Coyote R Mouth
+  - first:
+      4: 400094
+    second: Coyote R Thigh
+  - first:
+      4: 400096
+    second: Coyote R Toe0
+  - first:
+      4: 400098
+    second: Coyote R Upper Eyelid
+  - first:
+      4: 400100
+    second: Coyote R Upper Mouth
+  - first:
+      4: 400102
+    second: Coyote R UpperArm
+  - first:
+      4: 400104
+    second: Coyote Spine
+  - first:
+      4: 400106
+    second: Coyote Spine1
+  - first:
+      4: 400108
+    second: Coyote Spine2
+  - first:
+      4: 400110
+    second: Coyote Tail
+  - first:
+      4: 400112
+    second: Coyote Tail02
+  - first:
+      4: 400114
+    second: Coyote Tail03
+  - first:
+      4: 400116
+    second: Coyote Tail04
+  - first:
+      4: 400118
+    second: Coyote Tongue
+  - first:
+      4: 400120
+    second: Coyote Tongue02
+  - first:
+      21: 2100000
+    second: Coyote
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: Coyote Mesh
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: Coyote Mesh
+  - first:
+      43: 4300000
+    second: Coyote Mesh
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Coyote Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coyote
+    second: {fileID: 2100000, guid: 0a330633a3f1b6643987025e8c59cbfe, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Coyote Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coyote Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Coyote(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00000047595714, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coyote
+      parentName: Coyote(Clone)
+      position: {x: -0, y: 0.01039311, z: -1.9311174e-11}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Coyote Pelvis
+      parentName: Coyote
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coyote Spine
+      parentName: Coyote Pelvis
+      position: {x: -0.0011226089, y: -0.0000014227943, z: 0.0000000015588111}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Coyote Spine1
+      parentName: Coyote Spine
+      position: {x: -0.0017900381, y: -0.000001421213, z: -3.919376e-12}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Coyote Spine2
+      parentName: Coyote Spine1
+      position: {x: -0.0017898922, y: -0.0000014026165, z: -3.8957297e-12}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Coyote Neck
+      parentName: Coyote Spine2
+      position: {x: -0.0017901474, y: -0.0000021677013, z: -6.012851e-12}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: Coyote Head
+      parentName: Coyote Neck
+      position: {x: -0.0027223874, y: -3.814697e-10, z: 1.4551914e-15}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: Coyote L Lower Eyelid
+      parentName: Coyote Head
+      position: {x: -0.004610005, y: 0.0023770733, z: 0.0016093883}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+    - name: Coyote L Upper Eyelid
+      parentName: Coyote Head
+      position: {x: -0.0046100076, y: 0.0023761566, z: 0.0016084871}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.000001}
+    - name: Coyote L Eyebrow
+      parentName: Coyote Head
+      position: {x: -0.0053148726, y: 0.0024453518, z: 0.001236752}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000005}
+    - name: Coyote L Cheek
+      parentName: Coyote Head
+      position: {x: -0.0027907926, y: -0.000002651691, z: 0.003249276}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: Coyote Nose
+      parentName: Coyote Head
+      position: {x: -0.0029134545, y: 0.008774088, z: 0.000000012306966}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000002}
+    - name: Coyote L Upper Mouth
+      parentName: Coyote Head
+      position: {x: -0.0025539154, y: 0.006807132, z: 0.002120058}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000011}
+    - name: Coyote Jaw
+      parentName: Coyote Head
+      position: {x: -0.0032777078, y: 0.00028174257, z: 3.8658576e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000004}
+    - name: Coyote L Mouth
+      parentName: Coyote Jaw
+      position: {x: -0.0027323933, y: -0.00047412413, z: 0.0020657454}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 1.0000007, z: 1.000001}
+    - name: Coyote L Lower Mouth
+      parentName: Coyote Jaw
+      position: {x: -0.005100477, y: -0.00001652069, z: 0.0014357365}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000006}
+    - name: Coyote R Lower Mouth
+      parentName: Coyote Jaw
+      position: {x: -0.0051004905, y: -0.000016378783, z: -0.0014357364}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000006}
+    - name: Coyote R Mouth
+      parentName: Coyote Jaw
+      position: {x: -0.0027323933, y: -0.00047411036, z: -0.0020657473}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000008, z: 1.0000007}
+    - name: Coyote Tongue
+      parentName: Coyote Jaw
+      position: {x: -0.0026700932, y: 0.00006905211, z: -0.0000000027478786}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.0000011, z: 0.99999964}
+    - name: Coyote Tongue02
+      parentName: Coyote Tongue
+      position: {x: -0.0016413736, y: -0.0000013061521, z: -3.6263369e-12}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000005}
+    - name: Coyote L Eye
+      parentName: Coyote Head
+      position: {x: -0.0046102214, y: 0.0023765871, z: 0.0016089446}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000005}
+    - name: Coyote L Ear
+      parentName: Coyote Head
+      position: {x: -0.0060664467, y: -0.0012421021, z: 0.002742415}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000006}
+    - name: Coyote L Ear02
+      parentName: Coyote L Ear
+      position: {x: -0.0032128596, y: -0.0000025440213, z: -0.000000049018855}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coyote R Lower Eyelid
+      parentName: Coyote Head
+      position: {x: -0.004610005, y: 0.0023770824, z: -0.0016093748}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000014, y: 1.0000012, z: 1.0000004}
+    - name: Coyote R Upper Eyelid
+      parentName: Coyote Head
+      position: {x: -0.0046100076, y: 0.0023761655, z: -0.0016084738}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: Coyote R Eyebrow
+      parentName: Coyote Head
+      position: {x: -0.0053148726, y: 0.0024453586, z: -0.0012367385}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000011, y: 1.0000011, z: 0.99999994}
+    - name: Coyote R Cheek
+      parentName: Coyote Head
+      position: {x: -0.0027907926, y: -0.0000026336668, z: -0.003249277}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000013, y: 1.0000007, z: 1.0000008}
+    - name: Coyote R Upper Mouth
+      parentName: Coyote Head
+      position: {x: -0.0025539154, y: 0.0068071443, z: -0.0021200199}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: Coyote R Eye
+      parentName: Coyote Head
+      position: {x: -0.0046102214, y: 0.0023765962, z: -0.001608931}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.99999994}
+    - name: Coyote R Ear
+      parentName: Coyote Head
+      position: {x: -0.0060664467, y: -0.0012420866, z: -0.002742421}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000005}
+    - name: Coyote R Ear02
+      parentName: Coyote R Ear
+      position: {x: -0.0032128596, y: -0.0000025440213, z: 0.00000004882812}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000007}
+    - name: Coyote L Clavicle
+      parentName: Coyote Spine2
+      position: {x: -0.0014694533, y: -0.00006527556, z: 0.00036147167}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+    - name: Coyote L UpperArm
+      parentName: Coyote L Clavicle
+      position: {x: -0.0022020056, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000006}
+    - name: Coyote L Forearm
+      parentName: Coyote L UpperArm
+      position: {x: -0.0044015883, y: 4.768371e-11, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000007, z: 1.0000008}
+    - name: Coyote L Hand
+      parentName: Coyote L Forearm
+      position: {x: -0.0031207623, y: 0, z: 0.0000000015258788}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000006}
+    - name: Coyote L Finger3
+      parentName: Coyote L Hand
+      position: {x: -0.0022669784, y: 0.00015917662, z: 0.00079072604}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Coyote L Finger0
+      parentName: Coyote L Hand
+      position: {x: -0.0014001732, y: 0.0003725128, z: -0.0012596287}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000011}
+    - name: Coyote L Finger1
+      parentName: Coyote L Hand
+      position: {x: -0.002381544, y: -0.000003736877, z: -0.0006229468}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000012, z: 1.0000006}
+    - name: Coyote L Finger2
+      parentName: Coyote L Hand
+      position: {x: -0.0024564075, y: 0.0000043960567, z: 0.00010924404}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000004}
+    - name: Coyote R Clavicle
+      parentName: Coyote Spine2
+      position: {x: -0.0014694533, y: -0.000065273656, z: -0.00036147196}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000005}
+    - name: Coyote R UpperArm
+      parentName: Coyote R Clavicle
+      position: {x: -0.0022020054, y: 0, z: 0.0000000015258788}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000006}
+    - name: Coyote R Forearm
+      parentName: Coyote R UpperArm
+      position: {x: -0.004401589, y: 4.768371e-11, z: 0.0000000015258788}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: Coyote R Hand
+      parentName: Coyote R Forearm
+      position: {x: -0.003120764, y: 0, z: -0.0000000015258788}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000002}
+    - name: Coyote R Finger3
+      parentName: Coyote R Hand
+      position: {x: -0.002266976, y: 0.00015917815, z: -0.00079072604}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 0.99999964, z: 0.99999976}
+    - name: Coyote R Finger0
+      parentName: Coyote R Hand
+      position: {x: -0.0014001732, y: 0.00037251128, z: 0.0012596287}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999976}
+    - name: Coyote R Finger1
+      parentName: Coyote R Hand
+      position: {x: -0.002381545, y: -0.000003736877, z: 0.0006229469}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Coyote R Finger2
+      parentName: Coyote R Hand
+      position: {x: -0.002456407, y: 0.0000043945306, z: -0.00010924404}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: Coyote L Thigh
+      parentName: Coyote Pelvis
+      position: {x: 0.0000000022888182, y: 0.000000002543475, z: 0.0015064734}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000012, y: 1.0000011, z: 1.0000007}
+    - name: Coyote L Calf
+      parentName: Coyote L Thigh
+      position: {x: -0.005258326, y: -1.9073484e-10, z: -9.536742e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999997, z: 1.0000001}
+    - name: Coyote L Foot
+      parentName: Coyote L Calf
+      position: {x: -0.0038112316, y: 1.9073484e-10, z: 9.536742e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000005}
+    - name: Coyote L Toe0
+      parentName: Coyote L Foot
+      position: {x: -0.0011225309, y: 0.0032912602, z: -1.9073484e-10}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000006}
+    - name: Coyote R Thigh
+      parentName: Coyote Pelvis
+      position: {x: -0.0000000022888182, y: -0.0000000016348805, z: -0.0015064734}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000002}
+    - name: Coyote R Calf
+      parentName: Coyote R Thigh
+      position: {x: -0.005258325, y: -3.814697e-10, z: 9.536742e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000007}
+    - name: Coyote R Foot
+      parentName: Coyote R Calf
+      position: {x: -0.0038112316, y: 1.9073484e-10, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Coyote R Toe0
+      parentName: Coyote R Foot
+      position: {x: -0.0011225309, y: 0.0032912607, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000007, y: 0.9999999, z: 1.0000008}
+    - name: Coyote Tail
+      parentName: Coyote Pelvis
+      position: {x: 0.0000052932733, y: -0.0014939415, z: 0.0000000024398088}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: Coyote Tail02
+      parentName: Coyote Tail
+      position: {x: -0.0066477642, y: -0.00000447998, z: -1.2427335e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: Coyote Tail03
+      parentName: Coyote Tail02
+      position: {x: -0.0056622047, y: -0.0000045074457, z: -1.2503006e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Coyote Tail04
+      parentName: Coyote Tail03
+      position: {x: -0.00566381, y: -0.0000026039122, z: -7.2235703e-12}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000005}
+    - name: Coyote Mesh
+      parentName: Coyote(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.02
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
