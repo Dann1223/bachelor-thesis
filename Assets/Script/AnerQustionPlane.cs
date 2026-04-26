@@ -5,44 +5,44 @@ using UnityEngine.UI;
 using System;
 
 [Serializable]
-// Question data structure
+//题目结构
 public class QuestionTextData
-{
-    //Question content
+{    
+    //内容
     public string Connnet;
 
-    //Options
-    public string[] ChooseConnnet;
+    //选项
+   public string[] ChooseConnnet;
 
-    //Correct answer indices
-    public int[] anwerindex;
+    //答案
+   public int[] anwerindex;
 }
 
 public class AnerQustionPlane : MonoBehaviour
 {
-    //Error tip UI
+     //错误提示
     public GameObject m_ErrorTip;
-
-    //Question data (used to initialize UI)
+    
+    //题目数据-根据这些数据来对答题界面进行初始化
     public QuestionTextData[] data;
 
-    //Current question index
+    //答题索引
     [HideInInspector]
-    public int index;
-
-    //Back button
+    public int index; 
+    
+    //返回上级菜单按钮
     public Button m_ExtBtn;
 
-    //Next button
+    //下一题目按钮
     public Button m_Ok;
 
-    //Question text
+    //题目内容
     public Text m_Connet;
 
-    // Option texts
+    //选择项目
     public Text[] m_ChooseConnet;
 
-    //Toggle components
+    //打勾组件数组
     public Toggle[] m_Toggles;
 
     private void OnEnable() {
@@ -60,11 +60,11 @@ public class AnerQustionPlane : MonoBehaviour
             gameObject.SetActive(false);
         });
 
-        //Submit answer
+        //提交答案
         m_Ok.onClick.AddListener(()=>{
             if(IsAnwerOk())
-            {
-                //Move to the next question
+            {   
+                //进入下一个题目
                 index++;
                 if(index>=data.Length)
                 {
@@ -85,16 +85,16 @@ public class AnerQustionPlane : MonoBehaviour
                     Invoke("Hide", 3.0f);
                 }
                 else
-                {
-                    //Set next question
+                {   
+                    //设置下一个题目内容
                     SetQesqionsText(data[index].Connnet,data[index].ChooseConnnet); 
                 } 
             }
             else
             {
-                //Show error tip
+                //提示选择错误
                 m_ErrorTip.SetActive(true);
-                //Delay executio
+                //延迟
                 Invoke("HideErrorTip",1.5f);
             }
             
@@ -103,22 +103,22 @@ public class AnerQustionPlane : MonoBehaviour
         InitData(); 
     }
 
-    //Hide panel
+    //隐藏面板
     public void Hide()
     {
        gameObject.SetActive(false);
     }
 
-    //Hide error tip
+    //隐藏提示
     public void HideErrorTip()
     {
         m_ErrorTip.SetActive(false);
     }
 
-    //Check if answer is correct
+    //判断是否答对
     public bool IsAnwerOk()
     {
-        //Record the indices of selected options
+        //记录被打勾的索引
         int[] recodindex = new int[data[index].anwerindex.Length];
         int index1 = 0;
         for(int i=0;i<m_Toggles.Length;i++)
@@ -145,7 +145,7 @@ public class AnerQustionPlane : MonoBehaviour
         SetQesqionsText(data[index].Connnet,data[index].ChooseConnnet);
     }
 
-    //Set question content
+    //设置题目内容
     public void SetQesqionsText(string _connet,string[] choosec)
     {
         m_Connet.text = _connet;

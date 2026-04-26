@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 using System.Collections.Generic;
 using System.Collections;
 
-// // DeepSeek request/response data structures (unchanged)
+// DeepSeek请求/响应数据结构（保持不变）
 [System.Serializable]
 public class DeepSeekRequest
 {
@@ -50,12 +50,12 @@ public class DeepSeekUsage
 
 public class DeepSeekChatUI_NoScroll : MonoBehaviour
 {
-    [Header("DeepSeek Settings")]
-    [SerializeField] private string apiKey = "your_api_key";
+    [Header("DeepSeek配置")]
+    [SerializeField] private string apiKey = "你的密钥";
     [SerializeField] private string apiUrl = "https://api.deepseek.com/v1/chat/completions";
 
     [Header("UI组件")]
-    [SerializeField] private TMP_Text chatDisplay; // // Single text field, no scroll view required
+    [SerializeField] private TMP_Text chatDisplay; // 仅需一个文本框，无需滚动条
     [SerializeField] private TMP_InputField messageInput;
     [SerializeField] private Button sendBtn;
     [SerializeField] private Button clearBtn;
@@ -70,7 +70,7 @@ public class DeepSeekChatUI_NoScroll : MonoBehaviour
         clearBtn.onClick.AddListener(ClearChat);
         messageInput.onSubmit.AddListener((text) => SendMessageToDeepSeek());
 
-        // Initialize chat display
+        // 初始化对话显示
         chatDisplay.text = "欢迎使用DeepSeek对话！\n\n";
     }
 
@@ -80,7 +80,7 @@ public class DeepSeekChatUI_NoScroll : MonoBehaviour
         string userInput = messageInput.text.Trim();
         if (string.IsNullOrEmpty(userInput)) return;
 
-        // Append directly to the text field
+        // 直接追加到文本框
         chatDisplay.text += $"<color=#FF69B4>你：</color>{userInput}\n\n";
         chatHistory.Add(new DeepSeekMessage { role = "user", content = userInput });
         messageInput.text = "";
@@ -98,10 +98,10 @@ public class DeepSeekChatUI_NoScroll : MonoBehaviour
 
     private IEnumerator RequestDeepSeekReply()
     {
-        // Display loading status
+        // 显示加载状态
         chatDisplay.text += "<color=#00BFFF>AI：</color>思考中...\n\n";
 
-        // Build request body
+        // 构建请求体
         DeepSeekRequest requestData = new DeepSeekRequest
         {
             messages = chatHistory
@@ -109,7 +109,7 @@ public class DeepSeekChatUI_NoScroll : MonoBehaviour
         string jsonBody = JsonUtility.ToJson(requestData);
         jsonBody = jsonBody.Replace("\"object_name\"", "\"object\"");
 
-        // Create request
+        // 创建请求
         using (UnityWebRequest request = new UnityWebRequest(apiUrl, "POST"))
         {
             byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonBody);
@@ -119,10 +119,10 @@ public class DeepSeekChatUI_NoScroll : MonoBehaviour
             request.SetRequestHeader("Authorization", $"Bearer {apiKey}");
             request.SetRequestHeader("Content-Type", "application/json");
 
-            // Send request
+            // 发送请求
             yield return request.SendWebRequest();
 
-            //  Remove loading status (replace the last line)
+            // 移除加载状态（替换最后一行）
             string currentText = chatDisplay.text;
             int lastLineIndex = currentText.LastIndexOf("\n\n");
             if (lastLineIndex > 0)
@@ -130,7 +130,7 @@ public class DeepSeekChatUI_NoScroll : MonoBehaviour
                 chatDisplay.text = currentText.Substring(0, lastLineIndex) + "\n\n";
             }
 
-            // Handle response
+            // 处理响应
             if (request.result == UnityWebRequest.Result.Success)
             {
                 string responseJson = request.downloadHandler.text.Replace("\"object\"", "\"object_name\"");

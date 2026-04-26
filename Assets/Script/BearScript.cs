@@ -30,6 +30,21 @@ public class BearScript : MonoBehaviour
         {
             this.transform.Rotate(new Vector3(0, roatatespeed * Time.deltaTime, 0));
         }
+        if (Input.GetKey(KeyCode.S))
+        {
+            ani.SetBool("back", true);
+            this.transform.Translate(new Vector3(0, 0, -movespeed * Time.deltaTime));
+        }
+        else
+        {
+            ani.SetBool("back", false);
+        }
+
+
+
+
+
+
     }
 
     
